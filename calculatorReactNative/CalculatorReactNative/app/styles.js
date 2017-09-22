@@ -34,6 +34,10 @@ module.exports = StyleSheet.create({
     fontWeight: "bold",
     color: "white"
   },
+  inputRow: {
+    flex: 1,
+    flexDirection: "row"
+  },
   action: {
     backgroundColor: constants.actionColor,
     borderColor: "transparent",
