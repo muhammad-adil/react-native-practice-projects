@@ -1,4 +1,5 @@
 "use strict";
+
 let React = require("react-native");
 let { StyleSheet } = React;
 
@@ -20,6 +21,18 @@ module.exports = StyleSheet.create({
   inputContainer: {
     flex: 8,
     backgroundColor: "#3E606F"
+  },
+  inputButton: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    borderWidth: 0.5,
+    borderColor: "#91AA9D"
+  },
+  inputButtonText: {
+    fontSize: 22,
+    fontWeight: "bold",
+    color: "white"
   },
   action: {
     backgroundColor: constants.actionColor,
