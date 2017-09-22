@@ -38,6 +38,9 @@ module.exports = StyleSheet.create({
     flex: 1,
     flexDirection: "row"
   },
+  inputButtonHighlighted: {
+    backgroundColor: "#193441"
+  },
   action: {
     backgroundColor: constants.actionColor,
     borderColor: "transparent",

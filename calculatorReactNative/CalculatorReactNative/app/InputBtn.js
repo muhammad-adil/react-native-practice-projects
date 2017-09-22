@@ -7,9 +7,14 @@ import Style from "./Styles";
 export default class InputBtn extends Component {
   render() {
     return (
-      <View style={Style.inputButton}>
+      <TouchableHighlight
+        style={[
+          Styles.inputButton,
+          this.props.highlight ? style.inputButtonHighlighted : null
+        ]}
+      >
         <Text style={Style.inputButtonText}>{this.props.value}</Text>
-      </View>
+      </TouchableHighlight>
     );
   }
 }
